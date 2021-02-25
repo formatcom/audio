@@ -81,7 +81,7 @@ load-module module-loopback source=jack_pulseaudio sink=Sample latency_msec=1
 load-module module-loopback source=Sample.monitor latency_msec=1
 ~~~
 
-- My Setting Jack
+- My Setting Jack [ GUI Graph -> qjackctl ]
 
 ~~~
 # $HOME/.jackdrc
