@@ -55,6 +55,23 @@ $ pactl list sources [ input ]
 $ jackd -R -d dummy -r 44100 -C 0 -P 2
 ~~~
 
+~~~
+$ jack_lsp
+~~~
+
+~~~
+$ jack_lsp --connections
+~~~
+
+~~~
+$ jack_disconnect system:playback_1 ardour:Click/audio_out\ 1
+$ jack_disconnect system:playback_2 ardour:Click/audio_out\ 2
+~~~
+
+~~~
+$ qjackctl
+~~~
+
 - My Setting PulseAudio
 
 ~~~
