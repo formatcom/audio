@@ -105,3 +105,11 @@ load-module module-loopback source=Sample.monitor latency_msec=1
 
 /usr/bin/jackd -R -d dummy -r 44100 -C 0 -P 2
 ~~~
+
+- Ardour Plugins
+
+~~~
+- https://calf-studio-gear.org/
+- https://github.com/x42/meters.lv2
+- https://github.com/x42/x42-plugins
+~~~
